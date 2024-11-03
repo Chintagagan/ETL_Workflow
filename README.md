@@ -17,3 +17,33 @@ This ETL (Extract, Transform, Load) project is designed to ingest data in variou
 6.sqlalchemy: For connecting and loading data into RDS
 
 7.logging: For tracking and storing logs
+
+
+---------------------------------------------------------------------------
+
+├── README.md                  # Project documentation
+├── data/                      # Contains the raw data files (CSV, JSON, XML)
+├── logs/                      # Directory for log files
+├── etl_script.py              # Main ETL script
+└── transformed_data/          # Folder for transformed CSV files
+
+---------------------------------------------------------------------------
+
+# Steps to Run the ETL Pipeline
+
+<h2> Step 1: Gather Data Files </h2>
+1.Open a terminal and download the dataset using wget
+
+wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
+
+
+2. Unzip the downloaded file
+unzip source.zip -d ./data/
+
+
+<h2>Step 2: AWS Setup</h2>
+
+1.Create an S3 Bucket
+Set up a new S3 bucket  to store both raw and transformed data files.
+
+2.Set Up AWS RDS
