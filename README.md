@@ -45,7 +45,7 @@ wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDevel
 unzip source.zip -d ./data/
 
 <h2>2.Set Up AWS RDS</h2>
-  - Create an RDS instance (MySQL or PostgreSQL) to store the transformed data.
+- Create an RDS instance (MySQL or PostgreSQL) to store the transformed data.
 
   - Configure the security groups to allow access from your local machine or AWS Lambda functions.
 
