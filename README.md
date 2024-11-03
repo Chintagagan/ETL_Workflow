@@ -21,15 +21,15 @@ This ETL (Extract, Transform, Load) project is designed to ingest data in variou
 
 ---------------------------------------------------------------------------
 
-├── README.md                  # Project documentation
+── README.md                  # Project documentation
 
-├── data/                      # Contains the raw data files (CSV, JSON, XML)
+── data/                      # Contains the raw data files (CSV, JSON, XML)
 
-├── logs/                      # Directory for log files
+── logs/                      # Directory for log files
 
-├── etl_script.py              # Main ETL script
+── etl_script.py              # Main ETL script
 
-└── transformed_data/          # Folder for transformed CSV files
+── transformed_data/          # Folder for transformed CSV files
 
 ---------------------------------------------------------------------------
 
