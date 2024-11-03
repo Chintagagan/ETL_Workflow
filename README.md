@@ -77,7 +77,7 @@ Set up a new S3 bucket  to store both raw and transformed data files.
 
  - Clean and standardize data, performing necessary unit conversions (e.g., inches to meters, pounds to kilograms).
 
-<h3>Load Data to AWS<h3>
+<h3>Load Data to AWS</h3>
 
  - Store the transformed CSV file in S3 (e.g., my-etl-project-bucket/transformed_data.csv).
  - Load data into the RDS database by connecting with sqlalchemy and using pandas to write data into a relational table.
