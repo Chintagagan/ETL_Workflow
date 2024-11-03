@@ -68,12 +68,12 @@ Set up a new S3 bucket  to store both raw and transformed data files.
 
 <h2>Step 4: Define Functions for ETL with AWS Integration</h2>
 
-<h3>Extract Data<h3>
+<h3>Extract Data</h3>
 
  - Upload raw CSV, JSON, and XML files to the S3 bucket.
  - Download files from S3 for further processing.
 
-<h3>Transform Data<h3>
+<h3>Transform Data</h3>
 
  - Clean and standardize data, performing necessary unit conversions (e.g., inches to meters, pounds to kilograms).
 
