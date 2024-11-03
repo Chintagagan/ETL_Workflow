@@ -49,21 +49,6 @@ unzip source.zip -d ./data/
 
   - Configure the security groups to allow access from your local machine or AWS Lambda functions.
 
-<h2>Step 3: Import Libraries and Configure AWS Resources</h2>
-
-- Import boto3, pandas, sqlalchemy, and logging in your ETL script.
-- Set up AWS credentials and connection details in your environment variables or AWS configuration files to securely access S3 and RDS.
-
-
-
-
-
-
-
-
-
-
-
 
 <h2>Step 2: AWS Setup</h2>
 
@@ -71,3 +56,14 @@ unzip source.zip -d ./data/
 Set up a new S3 bucket  to store both raw and transformed data files.
 
 2.Set Up AWS RDS
+
+ - Create an RDS instance (MySQL or PostgreSQL) to store the transformed data.
+ - Configure the security groups to allow access from your local machine or AWS Lambda functions.
+
+
+<h2>Step 3: Import Libraries and Configure AWS Resources</h2>
+
+- Import boto3, pandas, sqlalchemy, and logging in your ETL script.
+- Set up AWS credentials and connection details in your environment variables or AWS configuration files to securely access S3 and RDS.
+
+
